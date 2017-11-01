@@ -3,8 +3,6 @@ a:focus,
 a:hover {
   color: #fff;
 }
-
-/* Custom default button */
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
@@ -13,14 +11,11 @@ a:hover {
   background-color: #fff;
   border: 1px solid #fff;
 }
-
-/*
- * Base structure
- */
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #7e7e7e;
+  font-family: 'Slabo 13px', serif;
 }
 body {
   color: #fff;
