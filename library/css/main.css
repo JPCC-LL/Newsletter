@@ -127,3 +127,12 @@ body {
 .logo {
   width: 300px;
 }
+
+.dropdown {
+  display: inline-block;
+}
+.scrollable-menu {
+  height: auto;
+  max-height: 150px;
+  overflow-x: hidden;
+}
