@@ -24,7 +24,7 @@ body {
   display: table;
   width: 100%;
   height: 100%; /* For at least Firefox */
-  min-height: 100%;
+  min-height: 25%;
 }
 .site-wrapper-inner {
   display: table-cell;
@@ -120,19 +120,26 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+    width: 1400px;
   }
 }
 
 .logo {
   width: 300px;
 }
-
 .dropdown {
-  display: inline-block;
+  display: inline;
 }
 .scrollable-menu {
   height: auto;
   max-height: 150px;
   overflow-x: hidden;
+}
+.newsletter {
+  border: 2px solid black;
+  height: 300px;
+}
+.autofill {
+  border: 2px solid black;
+  height: 300px;
 }
